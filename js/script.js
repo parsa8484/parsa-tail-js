@@ -100,6 +100,6 @@
  }
 
  var PowerResult = showpower(Number1 , Number2)
- alert("Result :" + PowerResult)
+ alert("Result : " +  PowerResult)
 
                                     //  ____________finish-function__________
