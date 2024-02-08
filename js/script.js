@@ -45,11 +45,61 @@
                                      // ______finish part5_____
 
 
- var userAge = prompt(" لطفا سن خود را وارد کنید : ")
- var gender = prompt("لطفا جنسیت خود را وارد کنید : (مرد یا زن)")
- if (gender === "زن" || userAge <= 18){
-alert("شما مجوز استفاده از سایت رو ندارید!!")
+//  var userAge = prompt(" لطفا سن خود را وارد کنید : ")
+//  var gender = prompt("لطفا جنسیت خود را وارد کنید : (مرد یا زن)")
+//  if (gender === "زن" || userAge <= 18){
+// alert("شما مجوز استفاده از سایت رو ندارید!!")
+//  }
+// else {
+// alert("به سایت خوش آمدید :) ")    
+// }
+
+                                // _________start-function__________    
+
+// var sayHi = function(){
+//     alert("Hi Parsa")
+// }
+// sayHi()
+
+// var showvalue = function() {
+//     var x = prompt("Please Enter your value :")
+//     // var y = prompt("Please Enter your value :")
+
+//     // var z = (x * y)
+//     // alert("result :" + " " + z )
+
+    
+
+//     if (x % 2 == 0) {
+//         alert("عدد مورد نظر زوج است")
+//     }
+//     else{
+//         alert("عدد مورد نظر فرد است")
+//     }
+// }
+// showvalue()
+
+
+// function isevenorodd (number) {
+//     if (number % 2 === 0) {
+//         alert(number + " Is even ")
+//     }
+//     else{
+//         alert(number + " Is odd ")
+//     }
+// } 
+
+// isevenorodd(2)
+// isevenorodd(3)
+ 
+ var Number1 = prompt("Enter your Number1 ...")
+ var Number2 = prompt("Enter your Number2 ...")
+                                                        // داخل showpower عدد دیفالت رو میذاریم خط پایین
+ function showpower(Number1 = 1 , Number2 = 1 ){
+  return Number1 ** Number2 
  }
-else {
-alert("به سایت خوش آمدید :) ")    
-}
+
+ var PowerResult = showpower(Number1 , Number2)
+ alert("Result :" + PowerResult)
+
+                                    //  ____________finish-function__________
