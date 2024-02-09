@@ -129,12 +129,24 @@
     // }
 
 
-var kapcha = Math.random() * 100000
-var kapcha2 = Math.floor(kapcha)
-var x =  prompt("لطفا کد کپچا را وارد کنید : " + kapcha2)
-    if(x == kapcha2){
-        alert("کد وارد شده صحیح است خوش آمدید :) ")
-    }
-    else{
-        alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
-    }
+// var captcha = Math.random() * 100000
+// var captcha2 = Math.floor(captcha)
+// var x =  prompt("لطفا کد کپچا را وارد کنید : " + captcha2)
+    // if(x == kapcha2){
+    //     alert("کد وارد شده صحیح است خوش آمدید :) ")
+    // }
+    // else{
+    //     alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
+    // }
+
+    do{
+     var captcha = Math.random() * 100000
+     var captcha2 = Math.floor(captcha)
+     var x =  prompt("لطفا کد کپچا را وارد کنید : " + captcha2)
+        if(x == captcha2){
+            alert("کد وارد شده صحیح است خوش آمدید :) ")
+        }
+        else{
+            alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
+        }
+    }while(x != captcha2)
