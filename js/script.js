@@ -1,4 +1,4 @@
-    var username = "Tar"
+    // var username = "Tar"
 // var omg = prompt("لطفا نام و نام خانوادگی خود را وارد کنید :")
 // alert( " نام شما : "  + omm )
 // alert(typeof Number(omg))
@@ -92,14 +92,49 @@
 // isevenorodd(2)
 // isevenorodd(3)
  
- var Number1 = prompt("Enter your Number1 ...")
- var Number2 = prompt("Enter your Number2 ...")
-                                                        // داخل showpower عدد دیفالت رو میذاریم خط پایین
- function showpower(Number1 = 1 , Number2 = 1 ){
-  return Number1 ** Number2 
- }
+//  var Number1 = prompt("Enter your Number1 ...")
+//  var Number2 = prompt("Enter your Number2 ...")
+//                                                         // داخل showpower عدد دیفالت رو میذاریم خط پایین
+//  function showpower(Number1 = 1 , Number2 = 1 ){
+//   return Number1 ** Number2 
+//  }
 
- var PowerResult = showpower(Number1 , Number2)
- alert("Result : " +  PowerResult)
+//  var PowerResult = showpower(Number1 , Number2)
+//  alert("Result : " +  PowerResult)
+
 
                                     //  ____________finish-function__________
+                                        // _________start-string__________
+
+    // var x = "Parsa Abd"
+    // var y = x[5]
+    // // alert(y)
+    // alert(x.length)
+
+
+    // var Username = prompt("لطفا نام کاربری خود را وارد کنید : ")
+
+    // if(Username.length >= 3){
+    //     var Password = prompt("لطفا رمز خود را وارد کنید : ")
+    // }
+    // else{
+    //     alert("نام کاربری مورد نظر باید حداقل 3 رقمی باشد")
+    // }
+    
+    // if(Password.length >= 8){
+    //     alert("ثبت شد موفق باشید :) ")
+    // }
+    // else{
+    //     alert("رمز مورد نظر باید حداقل 8 رقمی باشد ")
+    // }
+
+
+var kapcha = Math.random() * 100000
+var kapcha2 = Math.floor(kapcha)
+var x =  prompt("لطفا کد کپچا را وارد کنید : " + kapcha2)
+    if(x == kapcha2){
+        alert("کد وارد شده صحیح است خوش آمدید :) ")
+    }
+    else{
+        alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
+    }
