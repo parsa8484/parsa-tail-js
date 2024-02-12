@@ -129,15 +129,6 @@
     // }
 
 
-// var captcha = Math.random() * 100000
-// var captcha2 = Math.floor(captcha)
-// var x =  prompt("لطفا کد کپچا را وارد کنید : " + captcha2)
-    // if(x == kapcha2){
-    //     alert("کد وارد شده صحیح است خوش آمدید :) ")
-    // }
-    // else{
-    //     alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
-    // }
 
     do{
      var captcha = Math.random() * 100000
@@ -150,3 +141,84 @@
             alert("کد وارد شده نادرست است لطفا مجددا تلاش کنید ")
         }
     }while(x != captcha2)
+
+//     var Z = 0
+// for(var i = 0; i < 5; i++){
+//    var X = parseInt( prompt("لطفا وارد کنید") )
+//     Z = Z + X 
+// }
+// y = Z/i
+// alert(y)
+
+
+
+// var x = 0
+// x = parseInt( prompt("لطفا وارد کنید") )
+// for(var i = 0; x/10 != 0 ; i++){
+// x =  Math.floor(x / 10)
+// }
+
+// alert(i)
+
+// usernumber1 = parseInt( prompt("لطفا عدد اول را وارد کنید :") )
+// usernumber2 = parseInt( prompt("لطفا عدد دوم را وارد کنید :") )
+// var even = 0
+// while(usernumber1 != usernumber2){
+// if(usernumber1 / 2 == 0)
+// alert(usernumber1)
+// usernumber1++
+// }
+
+// var usernumber1 = Number( prompt("لطفا عدد اول را وارد کنید :") )
+// var usernumber2 = Number( prompt("لطفا عدد دوم را وارد کنید :") )
+// var power = 1
+// var i = 0
+// if(usernumber2 == 0){
+//     alert("1")
+// }
+// else{
+//     do{
+//         power = usernumber1 * power
+//          i++
+//         }while(i != usernumber2)
+        
+//         alert(power)
+// }
+
+                                        // _______arrays________    
+
+// var usernumbers = []
+
+// var usernumber = 0
+// var sum = 0
+// while(usernumber != -1){
+//     usernumber = Number(prompt("Enter your number '\n' if you dont have number enter -1 "))
+// if(usernumber != -1){
+//     usernumbers.push(usernumber)
+// }
+// }
+
+// for(var i = 0;i < usernumbers.length; i++ ){
+//     sum += usernumbers[i]
+// }
+// alert(sum/i)
+                                        // ______object______
+
+
+// var user = [
+// {
+//     Name: "Parsa",
+//     family: "Abedinejad",
+//     Age:19,
+//     job: "frontend developer" 
+// },
+// {
+//     Name: "ALi",
+//     family: "Torke",
+//     Age:18,
+//     job: "Bikar" ,
+// },
+// ];
+
+// console.log(user[1])
+
